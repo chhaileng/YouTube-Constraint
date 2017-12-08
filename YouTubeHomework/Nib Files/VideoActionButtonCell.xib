@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="VideoActionButtonCell" customModule="YouTubeHomework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIw-cg-P8I">
+                        <rect key="frame" x="20" y="10" width="24" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="FUG-wf-1fH"/>
+                            <constraint firstAttribute="width" constant="24" id="PhN-Pf-d2W"/>
+                        </constraints>
+                        <state key="normal" image="like"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha7-nc-nUg">
+                        <rect key="frame" x="85" y="10" width="24" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <state key="normal" image="dislike"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htl-3X-a7B">
+                        <rect key="frame" x="160" y="10" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="gxL-dL-94c"/>
+                            <constraint firstAttribute="height" constant="24" id="t5C-M1-eYF"/>
+                        </constraints>
+                        <state key="normal" image="share"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4a-Y8-TD7">
+                        <rect key="frame" x="235" y="10" width="24" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <state key="normal" image="download"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq8-2h-Rv5">
+                        <rect key="frame" x="299" y="10" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="WKg-bC-meg"/>
+                            <constraint firstAttribute="height" constant="24" id="YRT-jV-rR2"/>
+                        </constraints>
+                        <state key="normal" image="add-to"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZN-eC-SXw">
+                        <rect key="frame" x="11" y="40" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="7kb-jB-BFT"/>
+                            <constraint firstAttribute="height" constant="21" id="sqe-nZ-bP4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2.2K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jU-Sr-3Zt">
+                        <rect key="frame" x="77" y="40" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMB-cx-9Wb">
+                        <rect key="frame" x="151" y="40" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Download" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZE-Pg-5HW">
+                        <rect key="frame" x="215" y="40" width="61" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZv-RU-2uw">
+                        <rect key="frame" x="290" y="40" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="PNl-kb-IZ8"/>
+                            <constraint firstAttribute="height" constant="21" id="ysY-sw-jGz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XZN-eC-SXw" firstAttribute="top" secondItem="WIw-cg-P8I" secondAttribute="bottom" constant="7" id="6hm-fp-ohz"/>
+                    <constraint firstItem="WIw-cg-P8I" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="MGR-dL-VE6"/>
+                    <constraint firstItem="qq8-2h-Rv5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="N6G-DV-OYG"/>
+                    <constraint firstItem="NZv-RU-2uw" firstAttribute="centerX" secondItem="qq8-2h-Rv5" secondAttribute="centerX" id="O40-ei-PFD"/>
+                    <constraint firstAttribute="trailing" secondItem="qq8-2h-Rv5" secondAttribute="trailing" constant="20" id="PU0-kf-Fz8"/>
+                    <constraint firstAttribute="bottom" secondItem="XZN-eC-SXw" secondAttribute="bottom" constant="19.5" id="QEj-iE-j8A"/>
+                    <constraint firstItem="Htl-3X-a7B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RsC-vI-N6C"/>
+                    <constraint firstItem="XZN-eC-SXw" firstAttribute="centerX" secondItem="WIw-cg-P8I" secondAttribute="centerX" id="YiP-2w-loG"/>
+                    <constraint firstAttribute="bottom" secondItem="NZv-RU-2uw" secondAttribute="bottom" constant="19.5" id="cMD-g5-h36"/>
+                    <constraint firstItem="WIw-cg-P8I" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="eBg-WP-zwM"/>
+                    <constraint firstItem="NZv-RU-2uw" firstAttribute="top" secondItem="qq8-2h-Rv5" secondAttribute="bottom" constant="6" id="geH-KG-1i8"/>
+                    <constraint firstItem="Htl-3X-a7B" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="knh-DX-sen"/>
+                    <constraint firstAttribute="trailing" secondItem="NZv-RU-2uw" secondAttribute="trailing" constant="11" id="q7I-5a-gAD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="45.5" y="-11.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="add-to" width="24" height="24"/>
+        <image name="dislike" width="24" height="24"/>
+        <image name="download" width="24" height="24"/>
+        <image name="like" width="24" height="24"/>
+        <image name="share" width="24" height="24"/>
+    </resources>
+</document>

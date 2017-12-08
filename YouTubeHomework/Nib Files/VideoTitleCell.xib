@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="VideoTitleCell" customModule="YouTubeHomework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Video TITLEVideo TITLEVideo TITLEVideo TITLEVideo TITLEVideo TITLEVideo TITLE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa7-DR-zLC">
+                        <rect key="frame" x="5" y="10" width="371" height="24.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHc-hc-Lhd">
+                        <rect key="frame" x="381" y="10" width="23" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="7tJ-Ce-8AQ"/>
+                            <constraint firstAttribute="width" constant="23" id="ekL-2z-dFP"/>
+                        </constraints>
+                        <state key="normal" image="more"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duk-hz-Yfx">
+                        <rect key="frame" x="5" y="48.5" width="209" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dHc-hc-Lhd" secondAttribute="trailing" constant="2" id="7Hp-Ef-hXW"/>
+                    <constraint firstItem="duk-hz-Yfx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="9Id-0D-c7I"/>
+                    <constraint firstItem="dHc-hc-Lhd" firstAttribute="leading" secondItem="aa7-DR-zLC" secondAttribute="trailing" constant="5" id="BH7-i3-2Uz"/>
+                    <constraint firstItem="aa7-DR-zLC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="HhY-za-JqK"/>
+                    <constraint firstItem="aa7-DR-zLC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Kbr-f8-EWs"/>
+                    <constraint firstItem="duk-hz-Yfx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="aa7-DR-zLC" secondAttribute="bottom" constant="14" id="PCq-z3-VBj"/>
+                    <constraint firstItem="dHc-hc-Lhd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ZPV-eY-tgv"/>
+                    <constraint firstAttribute="bottom" secondItem="duk-hz-Yfx" secondAttribute="bottom" constant="17" id="eVl-FG-4te"/>
+                    <constraint firstAttribute="trailing" secondItem="duk-hz-Yfx" secondAttribute="trailing" constant="192" id="fvm-G6-07X"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="videoTitleLabel" destination="aa7-DR-zLC" id="yQ7-8c-e54"/>
+                <outlet property="viewLabel" destination="duk-hz-Yfx" id="L09-zW-tvf"/>
+            </connections>
+            <point key="canvasLocation" x="77" y="72.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more" width="48" height="48"/>
+    </resources>
+</document>
