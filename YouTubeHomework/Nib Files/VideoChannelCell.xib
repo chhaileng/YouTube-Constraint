@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="391" height="80.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p-1" translatesAutoresizingMaskIntoConstraints="NO" id="3qb-10-BKr">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chhaileng" translatesAutoresizingMaskIntoConstraints="NO" id="3qb-10-BKr">
                         <rect key="frame" x="10" y="10" width="60" height="60"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="60" id="E0f-iR-TKO"/>
@@ -73,6 +73,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="p-1" width="88" height="88"/>
+        <image name="chhaileng" width="100" height="100"/>
     </resources>
 </document>
